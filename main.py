@@ -27,10 +27,10 @@ def main(d):
     lb2 = tk.Label(window,text=peop, fg='white', bg='black',width ='10', font=("Comic Sans MS", 35))
     lb3 = tk.Label(window,text=arm, fg='white', bg='black', width ='10',font=("Comic Sans MS", 35))
     lb4 = tk.Label(window,text=treas, fg='white', bg='black',width ='10', font=("Comic Sans MS", 35))
-    lb1.place( relx = 0)
-    lb2.place(relx = 0.15)
-    lb3.place(relx=0.3)
-    lb4.place(relx=0.45)
+    lb1.place( relx = 0.15)
+    lb2.place(relx = 0.3)
+    lb3.place(relx=0.45)
+    lb4.place(relx=0.60)
     if d.get('Church') < 0:
         church0()
     elif d.get('Church') > 100:
