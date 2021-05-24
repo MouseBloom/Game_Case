@@ -110,7 +110,7 @@ def church0():
         btn.destroy()
         d = {'Church': 50, 'People': 50, 'Army': 50, 'Treasury': 50}
         first_step(d)
-    end = tk.Label(text='Your country has been taken by pagans\r the burnt you alive', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
+    end = tk.Label(text='Your country has been taken by pagans\r They burnt you alive', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
     end.place(anchor='center', relx=.5, rely=.3)
     btn = tk.Button(text = 'TRY AGAIN', width = '10', height = '5',  fg = 'black',  command = click)
     btn.place(anchor = 'center', relx = .5, rely = .4)
@@ -124,7 +124,7 @@ def church100():
         btn.destroy()
         d = {'Church': 50, 'People': 50, 'Army': 50, 'Treasury': 50}
         first_step(d)
-    end = tk.Label(text='Your bishop overthrown you\r you died in prison', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
+    end = tk.Label(text='Your bishop overthrown you\r You died in prison', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
     end.place(anchor='center', relx=.5, rely=.3)
     btn = tk.Button(text = 'TRY AGAIN', width = '10', height = '5',  fg = 'black',  command = click)
     btn.place(anchor = 'center', relx = .5, rely = .4)
@@ -138,7 +138,7 @@ def people0():
         btn.destroy()
         d = {'Church': 50, 'People': 50, 'Army': 50, 'Treasury': 50}
         first_step(d)
-    end = tk.Label(text='People of your kingdom made a revolution\r you were killed by crowd', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
+    end = tk.Label(text='People of your kingdom made a revolution\r You were killed by crowd', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
     end.place(anchor='center', relx=.5, rely=.3)
     btn = tk.Button(text = 'TRY AGAIN', width = '10', height = '5',  fg = 'black',  command = click)
     btn.place(anchor = 'center', relx = .5, rely = .4)
@@ -151,7 +151,7 @@ def people100():
         btn.destroy()
         d = {'Church': 50, 'People': 50, 'Army': 50, 'Treasury': 50}
         first_step(d)
-    end = tk.Label(text='People of you kingdom made democracy\r you are no longer in rule but your name will be remembered for ages', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
+    end = tk.Label(text='People of you kingdom made democracy\r You are no longer in rule but your name will be remembered for ages', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
     end.place(anchor='center', relx=.5, rely=.3)
     btn = tk.Button(text = 'TRY AGAIN', width = '10', height = '5',  fg = 'black',  command = click)
     btn.place(anchor = 'center', relx = .5, rely = .4)
@@ -164,7 +164,7 @@ def army100():
         btn.destroy()
         d = {'Church': 50, 'People': 50, 'Army': 50, 'Treasury': 50}
         first_step(d)
-    end = tk.Label(window,text='Your army is to strong, they made general their new king\r you were executed ', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
+    end = tk.Label(window,text='Your army is to strong, they made general their new king\r You were executed ', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
     end.place(anchor='center', relx=.5, rely=.3)
     btn = tk.Button(text = 'TRY AGAIN', width = '10', height = '5',  fg = 'black',  command = click)
     btn.place(anchor = 'center', relx = .5, rely = .4)
@@ -177,7 +177,7 @@ def army0():
         btn.destroy()
         d = {'Church': 50, 'People': 50, 'Army': 50, 'Treasury': 50}
         first_step(d)
-    end = tk.Label(text='Your kingdom was taken by invaders\r you were slaved and died in the mines', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
+    end = tk.Label(text='Your kingdom was taken by invaders\r You were slaved and died in the mines', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
     end.place(anchor='center', relx=.5, rely=.3)
     btn = tk.Button(text = 'TRY AGAIN', width = '10', height = '5',  fg = 'black',  command = click)
     btn.place(anchor = 'center', relx = .5, rely = .4)
@@ -190,7 +190,7 @@ def treasury100():
         btn.destroy()
         d = {'Church': 50, 'People': 50, 'Army': 50, 'Treasury': 50}
         first_step(d)
-    end = tk.Label(text='People united against you to make communism\r you and your family was shot', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
+    end = tk.Label(text='People united against you to make communism\r You and your family was shot', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
     end.place(anchor='center', relx=.5, rely=.3)
     btn = tk.Button(text = 'TRY AGAIN', width = '10', height = '5',  fg = 'black',  command = click)
     btn.place(anchor = 'center', relx = .5, rely = .4)
@@ -203,7 +203,7 @@ def treasury0():
         btn.destroy()
         d = {'Church': 50, 'People': 50, 'Army': 50, 'Treasury': 50}
         first_step(d)
-    end = tk.Label(text='All the authority was taken by rich men, you lost any power\r you were exiled', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
+    end = tk.Label(text='All the authority was taken by rich men, you lost any power\r You were exiled', bg = 'black', fg = 'white',font=("Comic Sans MS", 20))
     end.place(anchor='center', relx=.5, rely=.3)
     btn = tk.Button(text = 'TRY AGAIN', width = '10', height = '5',  fg = 'black',  command = click)
     btn.place(anchor = 'center', relx = .5, rely = .4)
