@@ -1,8 +1,8 @@
 # Case-study
 # Developers:
 # Marinkin O. (65%),
-# Seledtsov A. (40%),
-# Evdischenko M. (40%)
+# Seledtsov A. (50%),
+# Evdischenko M. (35%)
 
 import tkinter as tk
 import random
@@ -421,7 +421,7 @@ def event11(d):
         d['Church'] -= 10
         destroy()
         main(d)
-    tex = tk.Label(window,text="The church wants to introduce a new tax. The church is ready to share. Allow them?",bg='yellow', fg='black',font=("Comic Sans MS", 30))
+    tex = tk.Label(window,text="The church wants to introduce a new tax. The church is ready to share. Allow them?",bg='yellow',width = '100', fg='black',font=("Comic Sans MS", 30))
     btn1 = tk.Button(window, text='YES', width='10', height='5', fg='black', command=yes)
     btn2 = tk.Button(window,text='NO', width='10', height='5', fg='black', command=no)
     tex.place(anchor='center', relx=0.5, rely=0.2)
@@ -441,7 +441,7 @@ def event12(d):
         destroy()
         main(d)
 
-    tex = tk.Label(window,text="The Eastern baronies are gathering on our border. Send an army?",bg='yellow', fg='black',font=("Comic Sans MS", 30))
+    tex = tk.Label(window,text="The Eastern baronies are gathering on our border. Send an army?",width = '100',bg='yellow', fg='black',font=("Comic Sans MS", 30))
     btn1 = tk.Button(window,text='YES', width='10', height='5', fg='black', command=yes)
     btn2 = tk.Button(window,text='NO', width='10', height='5', fg='black', command=no)
     tex.place(anchor='center', relx=0.5, rely=0.2)
@@ -461,7 +461,7 @@ def event13(d):
         destroy()
         main(d)
 
-    tex = tk.Label(window,text="Our enemies want a peace agreement. Conclude?",bg='yellow', fg='black',font=("Comic Sans MS", 30))
+    tex = tk.Label(window,text="Our enemies want a peace agreement. Conclude?",width = '100',bg='yellow', fg='black',font=("Comic Sans MS", 30))
     btn1 = tk.Button(window,text='YES', width='10', height='5', fg='black', command=yes)
     btn2 = tk.Button(window,text='NO', width='10', height='5', fg='black', command=no)
     tex.place(anchor='center', relx=0.5, rely=0.2)
@@ -480,7 +480,7 @@ def event14(d):
         destroy()
         main(d)
 
-    tex = tk.Label(window,text="The public barn is on fire. Send troops?",bg='yellow', fg='black',font=("Comic Sans MS", 30))
+    tex = tk.Label(window,text="The public barn is on fire. Send troops?",width = '100',bg='yellow', fg='black',font=("Comic Sans MS", 30))
     btn1 = tk.Button(window,text='YES', width='10', height='5', fg='black', command=yes)
     btn2 = tk.Button(window,text='NO', width='10', height='5', fg='black', command=no)
     tex.place(anchor='center', relx=0.5, rely=0.2)
@@ -499,7 +499,7 @@ def event15(d):
         d['Church'] += 10
         main(d)
         main(d)
-    tex = tk.Label(window, text="Scientists want to conduct a study. Allocate money?",bg='yellow', fg='black',font=("Comic Sans MS", 30))
+    tex = tk.Label(window, text="Scientists want to conduct a study. Allocate money?",width = '100',bg='yellow', fg='black',font=("Comic Sans MS", 30))
     btn1 = tk.Button(window,text='YES', width='10', height='5', fg='black', command=yes)
     btn2 = tk.Button(window, text='NO', width='10', height='5', fg='black', command=no)
     tex.place(anchor='center', relx=0.5, rely=0.2)
@@ -565,6 +565,48 @@ def event18(d):
     tex = tk.Label(window, text="Woman claims that her child is yours", width='100', bg='yellow',fg='black', font=("Comic Sans MS", 30))
     btn1 = tk.Button(window, text='ACCEPT', width='10', height='5', fg='black', command=yes)
     btn2 = tk.Button(window, text='DENIE', width='10', height='5', fg='black', command=no)
+    tex.place(anchor='center', relx=0.5, rely=0.2)
+    btn1.place(relx=0.1, rely=0.3)
+    btn2.place(relx=0.75, rely=0.3)
+
+
+def event19():
+    def yes():
+        d['People'] -= 10
+        d['Army'] += 10
+
+        destroy()
+        main(d)
+
+    def no():
+        d['Army'] -= 10
+        destroy()
+        main(d)
+
+    tex = tk.Label(window, text="The catapults are damaged. Find the traitors??", width='100', bg='yellow',fg='black', font=("Comic Sans MS", 30))
+    btn1 = tk.Button(window, text='YES', width='10', height='5', fg='black', command=yes)
+    btn2 = tk.Button(window, text='NO', width='10', height='5', fg='black', command=no)
+    tex.place(anchor='center', relx=0.5, rely=0.2)
+    btn1.place(relx=0.1, rely=0.3)
+    btn2.place(relx=0.75, rely=0.3)
+
+
+def event20():
+    def yes():
+        d['Treasury'] -= 10
+        d['Army'] += 10
+
+        destroy()
+        main(d)
+
+    def no():
+        d['People'] -= 10
+        destroy()
+        main(d)
+
+    tex = tk.Label(window, text="The ship is in quarantine. Maybe it's the plague. Close the entire port?", width='100', bg='yellow',fg='black', font=("Comic Sans MS", 30))
+    btn1 = tk.Button(window, text='YES', width='10', height='5', fg='black', command=yes)
+    btn2 = tk.Button(window, text='NO', width='10', height='5', fg='black', command=no)
     tex.place(anchor='center', relx=0.5, rely=0.2)
     btn1.place(relx=0.1, rely=0.3)
     btn2.place(relx=0.75, rely=0.3)
