@@ -54,9 +54,9 @@ def main(d):
 
 def event_choice(d):
     global b
-    a = random.randint(1,15)
+    a = random.randint(1,20)
     while b == a:
-        a = random.randint(1,15)
+        a = random.randint(1,20)
     b = a
     if a == 1:
         event1(d)
@@ -90,6 +90,16 @@ def event_choice(d):
         event14(d)
     if a == 15:
         event15(d)
+    if a == 16:
+        event16(d)
+    if a == 17:
+        event17(d)
+    if a == 18:
+        event18(d)
+    if a == 19:
+        event19(d)
+    if a == 20:
+        event20(d)
 
 
 def church0():
