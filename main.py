@@ -580,7 +580,7 @@ def event18(d):
     btn2.place(relx=0.75, rely=0.3)
 
 
-def event19():
+def event19(d):
     def yes():
         d['People'] -= 10
         d['Army'] += 10
@@ -601,7 +601,7 @@ def event19():
     btn2.place(relx=0.75, rely=0.3)
 
 
-def event20():
+def event20(d):
     def yes():
         d['Treasury'] -= 10
         d['Army'] += 10
