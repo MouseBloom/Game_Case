@@ -426,7 +426,7 @@ def event11(d):
         d['Church'] += 10
         d['People'] -= 5
         destroy()
-        main()
+        main(d)
     def no():
         d['Church'] -= 10
         destroy()
